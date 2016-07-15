@@ -18,7 +18,7 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-from RDFXMLReader import cimread
-from RDFXMLWriter import cimwrite
+from .RDFXMLReader import cimread
+from .RDFXMLWriter import cimwrite
 
 __version__ = "15.13.2"
