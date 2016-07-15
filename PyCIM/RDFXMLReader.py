@@ -265,7 +265,7 @@ def get_cim_ns(namespaces):
 
     nsuri = ns
 
-    import CIM14, CIM15, CIM16
+    import CIM14, CIM15
     if ns == CIM14.nsURI:
         ns = 'CIM14'
     elif ns == CIM15.nsURI:
